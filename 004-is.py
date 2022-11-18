@@ -8,4 +8,4 @@ upper: {n.isupper()} \n\
 lower: {n.islower()} \n\
 title: {n.istitle()}")
 
-# alpha=alfabetico // alnum=alfanumerico // lower=minusculo // uppeer=maiusuculo // lower=minusculo // title:capitalizad
+# alpha=alfabetico // alnum=alfanumerico // lower=minusculo // uppeer=maiusuculo // lower=minusculo // title:capitalizado
