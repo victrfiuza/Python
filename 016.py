@@ -1,4 +1,5 @@
-from math import sqrt, floor
-num = int(input('n: '))
-raiz = sqrt(num)
-print(f'sqrt: {raiz:.2f}')
+from math import trunc
+num = float(input('N: '))
+print(f'N:{trunc(num)}')
+
+# trunc corta para porção inteira
