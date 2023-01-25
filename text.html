@@ -1,0 +1,38 @@
+----------------------------------- V i c t o r f i u z a d e a v i l a
+frase[9] - acha oq tem na casa 9 // 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+frase[9:21:2] = começa no 9 e ignora oq tem antes e vai ate 21, pulando de 2 em 2
+frase[:5] antes dos ':' é onde vai começar e dps onde vai terminar, logo vai começar no inicio 0 e vai ate o 5
+frase[15:] vai fatiar do 15 ate o final
+frase[9::3] vai começa no 9, vai ate o final, pulando de 3 em 3
+
+ANALISE
+
+len(frase) mostra o comprimento da frase
+
+frase.count('o') - vai contar quantas vezes aparece 'o' na frase
+frase.count('o',0,13) - vai considerar do 0 ate o 12(pq o 13 nao eh incluido) e ver quantos 'o' tem
+
+frase.find('victor') - vai encontrar e falar em que momento começou a palavra victor // se colocar alguma coisa q n
+existe vai mostrar -1
+
+'victor' in frase - vai responder se existe ou nao / TRUE OR FALSE
+
+TRANSFORMAÇÃO
+
+frase.replace('Victor','Luiza') - vai substituir a palavra pela outra
+frase.upper() - MAIUSCULO
+frase.lower() = MINUSCULO
+frase.capitalize() - vai colocar SÓ A PRIMEIRA letra da string em MAIUSCULO
+frase.title() - vai colocar as primeiras letras de cada palavra em maisculo
+
+frase.strip() - REMOVE OS ESPAÇOS DO INICIO E DO FINAL DA string
+frase.rstrip() - remove espaço da direita / R = RIGHT
+frase.lstrip() - remove da esquerda / LEFT
+
+DIVISAO
+
+frase.split() - tira os espaços da string e cada palavra começa na casa 0
+
+JUNCAO
+
+'-'.join(frase) / vai coloca - nos espaços
