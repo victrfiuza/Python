@@ -6,9 +6,11 @@ print('Vou pensar em um número entre 0 e 5.Tente adivinhar...')
 print('-=-'*20)
 sleep(3)
 n = int(input('Em que número eu pensei?  '))
-print('PROCESSANDO...')
+print('-=-'*20)
+print('\033[33mPROCESSANDO...\033[m')  # COR
+print('-=-'*20)
 sleep(2)
 if x == n:
-    print(f'Parabéns, você acertou, o numero era {x}')
+    print(f'\033[32mParabéns, você acertou, o numero era {x}\033[m')
 else:
-    print(f'Você errou, o numéro era {x}')
+    print(f'\033[31mVocê errou, o numéro era\033[m {x}')
