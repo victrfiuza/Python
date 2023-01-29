@@ -1,7 +1,9 @@
-r1 = float(input('reta 1:'))
-r2 = float(input('reta 2:'))
-r3 = float(input('reta 3:'))
-if (r1 + r2 > r3) & (r2 + r3 > r1) & (r1 + r3 > r2):
-    print('Pode formar um triangulo')
+casa = float(input('Valor da casa: R$'))
+salario = float(input('Salario do comprador: R$'))
+anos = int(input('Em quantos anos vai pagar? '))
+mensal = casa / (anos*12)
+pr = (salario*30) / 100
+if mensal > pr:
+    print(f'EMPRESTIMO NEGADO! A PRESTAÇÃO SERÁ DE R${mensal:.2f}')
 else:
-    print('Não pode formar um triangulo')
+    print(f'EMPRESTIMO APROVADO! VALOR DA PRESTACÃO MENSAL DE R${mensal:.2f}')
