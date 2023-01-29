@@ -1,7 +1,7 @@
-salario = float(input('Salario: '))
-if salario > 1250:
-    aumento = (salario*10) / 100
-    print(f'Salario com aumento: {salario+aumento}')
+r1 = float(input('reta 1:'))
+r2 = float(input('reta 2:'))
+r3 = float(input('reta 3:'))
+if (r1 + r2 > r3) & (r2 + r3 > r1) & (r1 + r3 > r2):
+    print('Pode formar um triangulo')
 else:
-    aumento = (salario*15) / 100
-    print(f'Salario com aumento: {salario+aumento}')
+    print('Não pode formar um triangulo')
