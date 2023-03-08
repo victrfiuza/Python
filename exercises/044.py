@@ -6,13 +6,13 @@ if forma == 1:
     desconto = (preco*10) / 100
     preco = preco - desconto
     print(f'VALOR À VISTA NO DINHEIRO/CHEQUE: R${preco}')
-if forma == 2:
+elif forma == 2:
     desconto = (preco*5) / 100
     preco = preco - desconto
     print(f'VALOR À VISTA NO CARTÃO: R${preco}')
-if forma == 3:
+elif forma == 3:
     print(f'VALOR TOTAL: R${preco}')
-if forma == 4:
+elif forma == 4:
     desconto = (preco*20) / 100
     preco = preco + desconto
     print(f'3X OU MAIS NO CARTÃO: R${preco}')
