@@ -1,4 +1,4 @@
-# 046
+# 048
 
 n = int(input('DIGITE UM VALOR: '))
 for c in range(1, 11):
